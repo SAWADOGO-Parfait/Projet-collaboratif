@@ -1,0 +1,2 @@
+# monsite
+ Ce site web personnel a été réalisé dans le cadre d’un TP d’initiation au développement web. Il comprend :  •	Une presentation de moi-même en tant qu’étudiant à l’Université Joseph Ki-Zerbo ; •	Mon parcours académique depuis le Baccalauréat ; •	Mon emploi du temps hebdomadaire ; •	Une section de contact ; •	Une section de fichiers téléchargeables. Le site a été conçu en HTML, avec une structure simple et proper, et est hébergé gratuitement via Github Pages.
