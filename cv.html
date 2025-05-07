@@ -1,195 +1,155 @@
 <!DOCTYPE html>
 <html lang="fr">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Curriculum Vitae </title>
-		<style>
-			body {
-				font-family: "Times New Roman", sans-serif;
-				margin: 40px;
-				background-color: #ffdbfc;
-				color: #000000;
-			}
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV - BELEM Abdoulaye</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-			header {
-				background-color: #ffffff;
-				color: #0000ff;
-				padding: 50px;
-				text-align: center;
-				margin-bottom: 50px;
-			}
-			}
-				.header img {
-					border-radius: 50%;
-					width: 150px;
-					height: auto;
-					object-fit: cover;
-					margin-right: 20px;
-					border-radius: 5px;
-				}
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f2f2f2;
+      color: #333;
+    }
 
-			header h1 {
-				margin-top: 0;
-			}
+    .cv-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 1000px;
+      margin: auto;
+      background: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
 
-			section {
-				background-color: #fff;
-				padding: 20px;
-				margin-bottom: 20px;
-				border-radius: 8px;
-				box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-			}
+    .sidebar {
+      background: #007BFF;
+      color: white;
+      padding: 20px;
+      width: 100%;
+      max-width: 300px;
+    }
 
-			h2 {
-				color: #333;
-				border-bottom: 2px solid #eee;
-				padding-bottom: 10px;
-				margin-top: 0;
-			}
+    .sidebar .photo img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
 
-			ul {
-				list-style: none;
-				padding: 0;
-			}
+    .sidebar h2 {
+      margin-top: 20px;
+      font-size: 18px;
+      border-bottom: 1px solid white;
+    }
 
-			li {
-				margin-bottom: 10px;
-			}
+    .sidebar ul {
+      list-style: none;
+      padding-left: 10px;
+    }
 
-			li strong {
-				font-weight: bold;
-			}
+    .sidebar li {
+      margin: 5px 0;
+    }
 
-			a {
-				color: #007bff;
-				text-decoration: none;
-			}
+    .main-content {
+      flex: 1;
+      padding: 30px;
+    }
 
-			a:hover {
-				text-decoration: underline;
-			}
+    header {
+      margin-bottom: 30px;
+    }
 
-			footer {
-				text-align: center;
-				padding-top: 20px;
-				color: #777;
-			}
-			table {
-				width: 100%; /* Le tableau prendra toute la largeur de son conteneur */
-				border-collapse: collapse; /* Fusionne les bordures des cellules */
-			}
+    header h1 {
+      font-size: 32px;
+      color: #007BFF;
+    }
 
-			th, td {
-				border: 1px solid black; /* Ajoute une bordure noire de 1 pixel aux cellules */
-				padding: 8px; /* Ajoute un espace intérieur aux cellules pour une meilleure lisibilité */
-				text-align: left; /* Aligne le texte à gauche par défaut */
-			}
+    .title {
+      font-style: italic;
+      margin-top: 5px;
+    }
 
-			th {
-				background-color: #c6ffbc; /* Donne un fond gris clair aux cellules d'en-tête */
-				font-weight: bold; /* Met le texte des en-têtes en gras */
-			}
-		</style>
-	</head>
-	<body>
-		<header>
-			<div class="container">
-			<div class="photo-section">
-				<img src="Photo.jpg" alt="Photo">
-			</div>
-			<h1>Curriculum Vitae</h1>
-			<p>Statisticien au Ministère de l'Agriculture, des Ressources Animales et Halieutiques</p>
-		</header>
+    section {
+      margin-bottom: 25px;
+    }
 
-		<section id="informations-personnelles">
-			<h2>Informations Personnelles</h2>
-			<ul>
-				<li>
-					<strong>Nom:</strong>SAWADOGO</li>
-				<li>
-					<strong>Prénoms:</strong>Nogbzanga Wend-Kuni Parfait]</li>
-				<li>
-					<strong>Situation Matrimoniale:</strong>Marié</li>
-				<li>
-					<strong>Email:</strong> <a href="mailto:[Votre Adresse Email]">parfaitowen2020@gmail;com</a></li>
-				<li>
-					<strong>Téléphone:</strong> 76-05-43-98</li>
-			</ul>
-		</section>
+    section h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+      color: #007BFF;
+    }
 
-		<section id="formation">
-			<h2>Formation académique</h2>
-			
-			<table>
-				<thead>
-					<tr>
-						<th>Années</th>
-						<th>Niveau d'étude</th>
-						<th>Diplômes</th>
-						<th>Etablissements</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>2025</td>
-						<td>Troisième année en informatique appliquée option Genie Logiciel</td>
-						<td>En cours</td>
-						<td>Université Joseph KI-ZERBO</td>
-					</tr>
-					<tr>
-						<td>2023-2024</td>
-						<td>Formation de technicien superieur de la statistique</td>
-						<td>Diplômes de succès</td>
-						<td>Ecole Nationale des Régies Financières ENAREF)</td>
-					</tr>
-					<tr>
-						<td>2014-2015</td>
-						<td>Formation d'agent technique de la statistique</td>
-						<td>Diplômes de succès</td>
-						<td>Ecole Nationale des Régies Financières ENAREF)</td>
-					</tr>
-					<tr>
-						<td>2013-2014</td>
-						<td>L2S3, L2S4 Deuxième année en science technique (ST)</td>
-						<td>Relevé de notes</td>
-						<td>Université de  Ouagadougou</td>
-					</tr>
-					<tr>
-						<td>2012-2013</td>
-						<td>L1S1, L1S2 première année en science technique (ST)</td>
-						<td>Relevé de notes</td>
-						<td>Université de  Ouagadougou</td>
-					</tr>
-					<tr>
-						<td>2010-2011</td>
-						<td>Terminale D</td>
-						<td>Diplôme du Bac D</td>
-						<td>Lycée Song Taaba de Ouagadougou</td>
-					</tr>
-				</tbody>
-			</table>
-		</section>
+    @media (max-width: 768px) {
+      .cv-wrapper {
+        flex-direction: column;
+      }
 
-<section id="Connaissances informatique">
-	<h2>Connaissances informatique</h2>
-			<ul>
-				<li>Microsoft office (Word, Excel, Power point, Acces); </li>
-				<li>Navigateurs internet; </li>
-				<li>Logiciel : SPSS, STATA et CS-PRO.</li>
-			</ul>
-		</section>
+      .sidebar, .main-content {
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="cv-wrapper">
+    <aside class="sidebar">
+      <div class="photo">
+        <img src="photo.jpg" alt="Photo de BELEM Abdoulaye" />
+      </div>
+      <div class="info">
+        <h2>Contact</h2>
+        <p>Téléphone : +226 XX XX XX XX</p>
+        <p>Email : abdoulaye@example.com</p>
+        <p>Adresse : Ouagadougou, Burkina Faso</p>
 
-		<section id="loisirs">
-			<h2>Loisirs</h2>
-			<ul>
-				<li>Lecture;</li>
-				<li>Footballs;</li>
-				<li>Musique.</li>
-			</ul>
-		</section>
+        <h2>Compétences</h2>
+        <ul>
+          <li>Programmation : C, JavaScript, VBA, HTML/CSS</li>
+          <li>Communication</li>
+          <li>Analyse financière</li>
+        </ul>
 
-		<footer>
-		</footer>
-	</body>
+        <h2>Langues</h2>
+        <ul>
+          <li>Français : courant</li>
+          <li>Anglais : intermédiaire</li>
+        </ul>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <header>
+        <h1>BELEM Abdoulaye</h1>
+        <p class="title">Économiste – Enseignant en Mathématiques – Développeur Web</p>
+      </header>
+
+      <section>
+        <h2>Formations</h2>
+        <p><strong>Master en Macroéconomie et Gestion du Développement</strong></p>
+        <p><strong>CAPES en Mathématiques</strong></p>
+        <p><strong>Licence en Informatique (en cours)</strong></p>
+        <p><strong>Certificats : </strong>Cybersécurité, Web, etc.</p>
+      </section>
+
+      <section>
+        <h2>Expériences</h2>
+        <p><strong>Enseignant en Mathématiques</strong><br />
+        Enseignement au secondaire, préparation aux examens</p>
+
+        <p><strong>Développeur Web et Access</strong><br />
+        Conception d'applications de gestion immobilière et projets éducatifs</p>
+      </section>
+
+      <section>
+        <h2>Centres d'intérêt</h2>
+        <p>Technologie, éducation, entrepreneuriat, environnement</p>
+      </section>
+    </main>
+  </div>
+</body>
 </html>
